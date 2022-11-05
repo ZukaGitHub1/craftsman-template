@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: "kolker";
+  src: url("../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "roboto";
+  src: url("../fonts/Roboto/Roboto-Thin.ttf");
+}
+@font-face {
+  font-family: "roboto light";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+body {
+  padding: 30px 250px;
+}
+header {
+  width: 100%;
+  padding: 10px 50px;
+}
+header {
+  width: 100%;
+  border-top: solid 1px black;
+  height: 40px;
+  padding-top: 20px;
+}
+h1 {
+  font-size: 40px;
+  line-height: 12px;
+  font-weight: 800;
+  font-family: "kolker";
+}
+h2 {
+  font-size: 30px;
+  font-family: "roboto";
+  color: #ffffff;
+  text-align: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+p {
+  font-size: 16px;
+  font-family: "roboto light";
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #ffffff;
+  text-align: center;
+}
+a {
+  color: black;
+  font-size: 26px;
+}
+.header {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 2px auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+main {
+  padding: 40px 0px;
+  border-bottom: solid 1px black;
+}
+.slider {
+  padding-bottom: 50px;
+  border-bottom: solid 1px black;
+}
+.img-heder {
+  width: 100%;
+}
+.img1 {
+  background-image: url(../image/surati1.jpg);
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 40px;
+}
+.texts {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.img2 {
+  background-image: url(../image/surati2.jpg);
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 40px;
+}
+.tns-controls {
+  display: none;
+}
+.slider button {
+  display: none;
+}
+/* main */
+.head_of_main {
+  color: black;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  letter-spacing: 6px;
+}
+.explore {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 40px 0px;
+  justify-content: space-between;
+  /* gap: ; */
+}
+.explore div {
+  margin-top: 20px;
+  width: 300px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.explore p {
+  font-family: "kolker";
+  color: black;
+  font-weight: 100;
+  padding-top: 0px;
+}
+.up_text {
+  text-align: center;
+  width: 100%;
+  border-bottom: solid 1px black;
+  padding-bottom: 10px !important;
+}
+.img3 {
+  background-image: url(../image/surati9.jpeg);
+}
+.img4 {
+  background-image: url(../image/surati4.jpg) !important;
+}
+.img5 {
+  background-image: url(../image/surati5.jpg) !important;
+}
+.img6 {
+  background-image: url(../image/surati6.jpg) !important;
+}
+.img7 {
+  background-image: url(../image/surati7.jpg) !important;
+}
+.img8 {
+  background-image: url(../image/surati8.jpg) !important;
+}
+.after_hover {
+  display: none !important;
+  width: 100%;
+  height: 280px !important;
+  background-color: rgba(255, 255, 255, 0.729);
+  justify-content: space-around !important;
+  margin: 0px !important;
+}
+.next-up {
+  border-bottom: solid 1px black;
+  padding-bottom: 40px;
+}
+.img3:hover .after_hover {
+  display: flex !important;
+}
+.img4:hover .after_hover {
+  display: flex !important;
+}
+.img5:hover .after_hover {
+  display: flex !important;
+}
+.img6:hover .after_hover {
+  display: flex !important;
+}
+.img7:hover .after_hover {
+  display: flex !important;
+}
+.img8:hover .after_hover {
+  display: flex !important;
+}
+/* footer */
+footer {
+  padding: 40px 0px;
+}
+.foot-head {
+  color: black;
+  letter-spacing: 10px;
+  width: 100%;
+}
+.map_phone{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 50px;
+}
+.map_phone p{
+  color: black;
+}
